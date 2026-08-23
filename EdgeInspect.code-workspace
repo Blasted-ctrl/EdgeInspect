@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "EdgeInspect",
+			"path": "."
+		}
+	],
+	"settings": {
+		"code-runner.enabled": false,
+		"C_Cpp.default.configurationProvider": "platformio.platformio-ide"
+	}
+}
