@@ -1,14 +1,32 @@
-#include <Arduino.h>
+#include <ESP32Servo.h>
 
-// put function declarations here:
+// Configs
 
-void setup() {
-  // put your setup code here, to run once:
+// Types
+
+enum class State
+{
+  Effective,
+  Defective
+};
+
+struct Object
+{
+  State status;
+  std::string name;
+  boolean Effective;
+};
+
+void setup()
+{
+
+  Serial.begin(115200);  
 
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
+
 }
 
 // put function definitions here:
