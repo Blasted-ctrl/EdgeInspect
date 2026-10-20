@@ -43,7 +43,14 @@ The full breakdown lives in [Docs/](Docs/), mainly [phases.md](Docs/phases.md).
 
 ## Running it
 
-You need VS Code with the PlatformIO extension.
+Open the project in Cortex (or use PlatformIO Core directly).
+
+- Open `tools/camera_preview.cpp` and press **Run** for the laptop webcam.
+- Press the hammer **Build** button for the ESP32 firmware in `src/main.cpp`.
+
+Both are C++, but the laptop and ESP32 run separate programs. See
+[camera setup](Docs/CAMERA-SETUP.md) for compiler configuration, camera checks,
+and the preserved original sketch.
 
 ```bash
 git clone https://github.com/Blasted-ctrl/EdgeInspect.git
